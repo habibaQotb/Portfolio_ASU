@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+/* ---------- Header ---------- */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+header h1 {
+    padding-bottom: 10px;
+}
+header p {
+    padding-bottom: 14px;
+}
+
+/* ---------- Links ---------- */
+header a,
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* ---------- Content width ---------- */
+section {
+    max-width: 800px;
+    margin: 0 auto;        
+    padding: 40px 20px;
+}
+h2 {
+    padding-bottom: 20px;
+}
+
+/* ---------- Project cards ---------- */
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.project-item {
+    flex: 1;                
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+.project-item h3 {
+    padding-bottom: 10px;
+}
+
+/* ---------- Form ---------- */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
